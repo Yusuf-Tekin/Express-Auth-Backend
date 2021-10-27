@@ -20,7 +20,9 @@
 🚀 Token Expire control <br>
 🚀 Account protection to prevent dictionary attack attacks <br>
 🚀 Password encryption <br>
-🚀 To be added (Password reset) <br> <br> <br>
+🚀 To be added (Password reset) <br>
+🚀 Admin did not complete functions
+
 
 
 
