@@ -2,25 +2,25 @@
 
 ##### It is a basic authentication system written with HTTP requests. Libraries and system features used in the system are specified below.
 
-##### Libraries
+##### Libraries <br>
 
-👉🏽 jsonwebtoken
-👉🏽 bcryptjs
-👉🏽 mongoose
-👉🏽 express
-👉🏽 timediff
-👉🏽 dotenv
-👉🏽 express-async-handler
-👉🏽 nodemon
+👉🏽 jsonwebtoken <br>
+👉🏽 bcryptjs <br>
+👉🏽 mongoose <br>
+👉🏽 express <br>
+👉🏽 timediff <br>
+👉🏽 dotenv <br>
+👉🏽 express-async-handler <br>
+👉🏽 nodemon <br>
 
-##### Features
+##### Features <br>
 
-🚀 Login
-🚀 Register
-🚀 Token Expire control
-🚀 Account protection to prevent dictionary attack attacks
-🚀 Password encryption
-🚀 To be added (Password reset)
+🚀 Login <br>
+🚀 Register <br>
+🚀 Token Expire control <br>
+🚀 Account protection to prevent dictionary attack attacks <br>
+🚀 Password encryption <br>
+🚀 To be added (Password reset) <br> <br> <br>
 
 
 
