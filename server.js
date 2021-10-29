@@ -9,7 +9,6 @@ app.use(express.json())
 
 const MainRouter = require('./Routers/index');
 const { ConnectDatabase } = require('./Helper/Database/ConnectDatabase');
-const { CustomErr } = require('./Helper/Error/CustomError');
 const { CustomErrorHandler } = require('./Middleware/Error/CustomErrorHandler');
 
 const PORT = process.env.PORT;

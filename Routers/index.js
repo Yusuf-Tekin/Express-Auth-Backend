@@ -8,7 +8,7 @@ const { tokenControl } = require('../Helper/Token/TokenControl');
 
 
 router.use('/user',UserRouter)
-router.use('/admin',AdminRouter)
+router.use('/admin',tokenControl,AdminRouter)
 
 router.get('/home',tokenControl,HomeController)
 

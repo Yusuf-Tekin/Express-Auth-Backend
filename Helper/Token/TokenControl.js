@@ -12,8 +12,11 @@ const tokenControl = async(req,res,next) => {
     const {JWT_SECRET_KEY} = process.env;
     jwt.verify(token,JWT_SECRET_KEY,(err,decoded) => {
         if(err){
-            return next(new CustomErr("Token'ın süresi bitmiş ya da geçersiz.Lütfen tekrar giriş yapın.",400));
+            return next(new CustomErr("Token'ın süresi bitmiş ya da geçersiz.Lütfen tekrar giriş yapın.",401));
         }
+
+        req.user = decoded;
+
         next();
     })
 
